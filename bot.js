@@ -5,7 +5,7 @@ bot.on('guildMemberAdd', member => {
 const mohamed= member.guild.channels.get("518932875958288384");
 if(!mohamed) return;
 if(mohamed) {
-setTimeout(() => mohamed.send(`**We .**`), 4000)        
+setTimeout(() => mohamed.send(**We .**), 4000)
 }
 });
-client.login(process.env.BOT_TOKEN);
+bot.login("NTIxMjg2NTAzNTA3NDI3MzQ4.DvVgjA.StRF0O9xMuM7wnBCmMWibjwnFXE")
